@@ -7,7 +7,6 @@ ParseClient::initialize( "jHL80GULkIzJwlyKS5aatZuDqhzmPUrMYAzeKZTO", "6Qc3Er8HAY
 ParseClient::setServerURL('https://parseapi.back4app.com', '/');
 
 
-
 $myCustomObject = new ParseObject("Orders");
 
 $myCustomObject->set("order_id", "1");
