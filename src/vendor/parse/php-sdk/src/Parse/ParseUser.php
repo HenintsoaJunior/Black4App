@@ -213,10 +213,11 @@ class ParseUser extends ParseObject
         $id,
         $screen_name,
         $consumer_key,
-        $consumer_secret = null,
+        
         //@codingStandardsIgnoreLine
         $auth_token,
-        $auth_token_secret
+        $auth_token_secret,
+        $consumer_secret = null
     ) {
 
         if (!$id) {
@@ -381,10 +382,10 @@ class ParseUser extends ParseObject
         $id,
         $screen_name,
         $consumer_key,
-        $consumer_secret = null,
         //@codingStandardsIgnoreLine
         $auth_token,
         $auth_token_secret,
+        $consumer_secret = null,
         $useMasterKey = false
     ) {
 
